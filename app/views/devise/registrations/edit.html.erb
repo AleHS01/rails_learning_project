@@ -1,6 +1,9 @@
-<h2>Edit Profile <% resource_name.to_s.humanize %></h2>
-
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+<div class="card mt-3">
+  <div class="card-header">
+    <h4>Edit Profile <% resource_name.to_s.humanize %></h4>
+  </div>
+  <div class="card-body">
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
@@ -35,8 +38,13 @@
     <%= f.submit "Update", class:"btn btn-dark my-2" %>
   </div>
 <% end %>
+  </div>
+</div>
 
-<div class="card mb-3">
+
+
+
+<div class="card my-3">
   <div class="card-header">
     Cancel my account
   </div>
