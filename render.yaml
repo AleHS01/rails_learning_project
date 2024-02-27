@@ -1,12 +1,12 @@
 databases:
-  - name: Friends-App
+  - name: friends_development
     databaseName: friends_development
     user: alehs
     plan: free
 
 services:
   - type: web
-    name: Friends-App
+    name: friends_development
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
