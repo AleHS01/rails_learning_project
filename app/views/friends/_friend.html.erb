@@ -1,12 +1,7 @@
 
   <td>
-    <%= friend.first_name %>
+  <%= link_to friend.first_name + " " +friend.last_name, friend %>
   </td>
-
-  <td>
-    <%= friend.last_name %>
-  </td>
-
   <td>
     <%= friend.email %>
   </td>
@@ -17,8 +12,4 @@
 
   <td>
     <%= friend.twitter %>
-  </td>
-
-  <td>
-    <%= friend.user_id%>
   </td>
