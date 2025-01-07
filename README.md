@@ -27,7 +27,7 @@ This Ruby on Rails application was built as a learning project to prepare for my
 - Clone the repository:
 
 ```bash
-git clone[ https://github.com/AleHS01/Rails_Instagram_Clone.git](https://github.com/AleHS01/rails_learning_project.git)
+git clone https://github.com/AleHS01/rails_learning_project.git
 cd rails_learning_project
 ```
 - Install gems:
